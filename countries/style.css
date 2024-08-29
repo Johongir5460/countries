@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 100%;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card__title {
+  padding-top: 24px;
+  padding-bottom: 16px;
+}
+.card__items {
+  padding: 24px;
+}
+.card {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 10px;
+}
+.text {
+  display: flex;
+}
+.input {
+  margin-top: 48px;
+  margin-bottom: 48px;
+  padding: 18px;
+  max-width: 480px;
+  width: 100%;
+  outline: none;
+  border-radius: 7px;
+  text-indent: 10px;
+  background-image: url("./images/search\ \(1\).svg");
+  background-repeat: no-repeat;
+  background-position: 1px center;
+}
+.main__serach {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.select {
+  max-width: 200px;
+  width: 100%;
+  padding: 18px 24px;
+  border-radius: 7px;
+  font-size: 18px;
+  color: black;
+}
+.card__list img {
+  width: 264px;
+  height: 160px;
+  object-fit: cover;
+  width: 100%;
+}
+.card__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+}
+.card {
+  background-color: rgb(255, 244, 230);
+}
+.btn {
+  padding: 20px;
+  font-size: 22px;
+  border-radius: 15px;
+}
+.moon__btn {
+  background-color: white;
+  color: blue;
+  border: 1px solid blue;
+}
+.btns {
+  display: flex;
+  gap: 30px;
+}
+.liked__btn {
+  background-color: white;
+  border: 1px solid red;
+  color: red;
+}
+.saved__btn {
+  background-color: white;
+  border: 1px solid green;
+  color: green;
+}
